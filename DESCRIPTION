@@ -9,13 +9,14 @@ Description: Pull the latest reported UFO sightings in USA and Canada from the
     National UFO Reporting Center's website (http://www.nwlink.com/~ufocntr/)
 Depends:
     R (>= 3.1.1),
-    dplyr (>= 0.3)
+    plyr (>= 1.8.1),
+    dplyr (>= 0.3),
+    ggplot2 (>= 1.0.0)
 License: CC0
 LazyData: true
 Imports:
     XML,
-    stringr,
-    ggplot2
+    stringr
 Suggests:
     knitr
 VignetteBuilder: knitr
