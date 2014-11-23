@@ -14,6 +14,9 @@
 
 latest.sightings <- function(area = 'BC', return.rows = 5){
 	
+	# Check that return.rows only takes numeric values and return an error if not ------
+	assertthat::assert_that(is.numeric(return.rows))
+	
 	# Load data from website ------------------
 	url <- paste0('http://www.nuforc.org/webreports/ndxl', area, '.html')
 	table <- XML::readHTMLTable(url)

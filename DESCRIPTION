@@ -18,7 +18,8 @@ License: CC0
 LazyData: true
 Imports: 
     XML,
-    stringr
+    stringr,
+    assertthat
 Suggests: 
     knitr,
     testthat
