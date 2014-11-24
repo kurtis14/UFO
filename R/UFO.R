@@ -6,5 +6,7 @@
 #' the types (i.e., shapes) of UFO's reported
 #' 
 #' @docType package
-#' @name ufo
+#' @name UFO
+#' @seealso \code{\link{latest.sightings}}, \code{\link{sightings.by.shape}}
+
 NULL
