@@ -6,19 +6,34 @@
 latest.sightings(area = "BC", return.rows = 5)
 }
 \arguments{
-\item{area}{Two uppercase letters that specifies the area to search}
+\item{area}{Two letters that specifies the area to search (case is not important)}
 
 \item{return.rows}{The number of most recent sightings to return}
 }
+\value{
+A data.frame of 5 rows (default) with variables containing info on:
+\itemize{ \item date of reported sighting
+\item time of sighting
+\item date posted on website
+\item state or province or territory
+\item city
+\item shape of UFO
+\item duration observed
+\item summary of sighting}
+}
 \description{
 This function returns the most recent sightings of Unidentified Flying Objects
-in the area (i.e., state, province, territory) specified.
+in the area (i.e., state, province, territory) specified, from
+\url{http://www.nuforc.org/webreports.html}.
 }
 \examples{
 latest.sightings()
 latest.sightings(area='BC')
 latest.sightings(area='NC', return.rows = 10)
 latest.sightings(area='MA', 3)
+}
+\seealso{
+\code{\link{sightings.by.shape}}
 }
 \keyword{misc}
 
