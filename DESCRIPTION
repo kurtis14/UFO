@@ -4,7 +4,7 @@ Title: Is it a bird? Is it a plane? No, it's a UFO! Find out the latest reported
     UFO sightings in USA and Canada via NUFORC
 Version: 0.0.0.9000
 Date: 2014-11-21
-Author: as.person("Kurtis Stewart <kurtisstewart1948@gmail.com> [aut, cre]")
+Authors@R: as.person("Kurtis Stewart <kurtisstewart1948@gmail.com> [aut, cre]")
 Description: Pull the latest reported UFO sightings in USA and Canada from the
     National UFO Reporting Center's website (http://www.nwlink.com/~ufocntr/).
     Users can see the latest reports from a specified area (i.e., province,

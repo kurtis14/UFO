@@ -58,3 +58,10 @@ Another example, returning a table of frequencies for California.
 knitr::kable(UFO::sightings.by.shape(area = 'CA', print = 'table'))
 ```
 
+
+### Reflection
+
+Creating the barebones for this package was not too difficult, as Bernhard's gameday package from class provided a solid outline. Developing the finer details of the package involved much more time and effort (e.g., finding appropriate tests using `testthat` and using `roxygen2` syntax).
+
+It was also time-consuming given that the package's functions retrieved data from multiple webpages! Running `devtools::check()`, for example, took several minutes.
+
